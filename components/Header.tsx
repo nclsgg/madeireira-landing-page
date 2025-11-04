@@ -20,26 +20,26 @@ export default function Header() {
       }`}
     >
       <nav className="flex mx-auto px-6 lg:px-12 items-center justify-between">
-        <div className="font-playfair text-2xl lg:text-3xl font-light tracking-wider text-white">
-          MADEIREIRA
+        <div className={`font-playfair text-2xl lg:text-3xl font-light tracking-wider ${scrolled ? 'text-[#2C2C2C]' : 'text-white'}`}>
+          PAUS CARPINTARIA
         </div>
         
         <div className="hidden md:flex items-center gap-12">
           <a
             href="#produtos"
-            className="font-inter text-sm font-light text-white hover:text-[#8B6F47] transition-colors duration-300"
+            className={`font-inter text-sm font-light ${scrolled ? 'text-[#2C2C2C]' : 'text-white'} hover:text-[#8B6F47] transition-colors duration-300`}
           >
             Produtos
           </a>
           <a
             href="#sobre"
-            className="font-inter text-sm font-light text-white hover:text-[#8B6F47] transition-colors duration-300"
+            className={`font-inter text-sm font-light ${scrolled ? 'text-[#2C2C2C]' : 'text-white'} hover:text-[#8B6F47] transition-colors duration-300`}
           >
             Sobre
           </a>
           <a
             href="#contato"
-            className="font-inter text-sm font-light border text-white border-white px-8 py-2 hover:bg-white hover:text-[#8B6F47] transition-all duration-300"
+            className={`font-inter text-sm font-light border ${scrolled ? 'text-[#2C2C2C] border-[#2C2C2C] hover:bg-[#2C2C2C] hover:text-white' : 'text-white border-white hover:bg-white hover:text-[#8B6F47]'} px-8 py-2 transition-all duration-300`}
           >
             Contato
           </a>

@@ -1,30 +1,33 @@
 import PremiumPlanks from "@/public/premium-planks.png";
+import Acabamentos from "@/public/acabamentos.jpg";
+import Estruturas from "@/public/estruturas.jpg";
+import PaineisRipados from "@/public/paineis-ripados.webp";
 import Image from "next/image";
 
 const products = [
   {
-    title: "Tábuas Premium",
-    description: "Seleção rigorosa de madeiras nobres",
+    title: "Madeiras Selecionadas",
+    description: "Tábuas e pranchas de madeiras nobres brasileiras e importadas",
     category: "Essencial",
     image: PremiumPlanks
   },
   {
-    title: "Painéis Artesanais",
-    description: "Feitos à mão com precisão",
+    title: "Painéis Decorativos",
+    description: "Painéis ripados e revestimentos artesanais sob medida",
     category: "Exclusivo",
-    image: PremiumPlanks
+    image: PaineisRipados
   },
   {
-    title: "Estruturas",
-    description: "Resistência e beleza natural",
+    title: "Estruturas e Vigas",
+    description: "Peças estruturais de alta resistência para construção",
     category: "Profissional",
-    image: PremiumPlanks
+    image: Estruturas
   },
   {
-    title: "Acabamentos",
-    description: "Detalhes que fazem a diferença",
+    title: "Acabamentos Finos",
+    description: "Molduras, rodapés e detalhes que valorizam seu projeto",
     category: "Premium",
-    image: PremiumPlanks
+    image: Acabamentos
   }
 ];
 
@@ -35,10 +38,10 @@ export default function ProductsSection() {
         {/* Section Header */}
         <div className="text-center mb-12 md:mb-16 lg:mb-20 animate-on-scroll max-w-3xl mx-auto px-4">
           <h2 className="font-playfair text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light text-[#2C2C2C] mb-4 md:mb-6 tracking-tight leading-[1.15]">
-            Nossa Coleção
+            Nossos Produtos
           </h2>
           <p className="font-inter text-base md:text-lg font-light text-[#2C2C2C]/70 max-w-xl mx-auto">
-            Cada peça conta uma história de qualidade e dedicação
+            Soluções completas em carpintaria para residências e empresas
           </p>
         </div>
 
@@ -51,14 +54,15 @@ export default function ProductsSection() {
               style={{ animationDelay: `${index * 100}ms` }}
             >
               {/* Product Image Placeholder */}
-              <Image
-                src={product.image}
-                alt={product.title}
-                layout="responsive"
-                width={400}
-                height={300}
-                className="relative mb-5 md:mb-6 overflow-hidden bg-[#E8E4DE]"
-              />
+              <div className="relative w-full aspect-4/3 mb-5 md:mb-6 overflow-hidden bg-[#E8E4DE] rounded-sm">
+                <Image
+                  src={product.image}
+                  alt={product.title}
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              </div>
               
               {/* Product Info */}
               <div className="space-y-2 md:space-y-3 text-center px-4">

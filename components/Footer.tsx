@@ -8,10 +8,10 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="font-playfair text-2xl font-light tracking-wider text-[#2C2C2C] mb-4">
-              MADEIREIRA
+              PAUS CARPINTARIA
             </div>
             <p className="font-inter text-sm font-light text-[#2C2C2C]/60 leading-relaxed">
-              Excelência em madeira.<br />
+              Excelência em carpintaria e mobiliário desde 1991.<br />
               Compromisso com a natureza.
             </p>
           </div>
@@ -57,13 +57,14 @@ export default function Footer() {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="#"
+                  href="https://www.instagram.com/pauscarpintaria/"
+                  target="_blank"
                   className="font-inter text-sm font-light text-[#2C2C2C]/70 hover:text-[#8B6F47] transition-colors duration-300"
                 >
                   Instagram
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a
                   href="#"
                   className="font-inter text-sm font-light text-[#2C2C2C]/70 hover:text-[#8B6F47] transition-colors duration-300"
@@ -78,7 +79,7 @@ export default function Footer() {
                 >
                   LinkedIn
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
@@ -87,7 +88,7 @@ export default function Footer() {
         <div className="pt-6 md:pt-8 border-t border-[#2C2C2C]/10">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
             <p className="font-inter text-xs font-light text-[#2C2C2C]/50">
-              © {currentYear} Madeireira. Todos os direitos reservados.
+              © {currentYear} PAUS CARPINTARIA. Todos os direitos reservados.
             </p>
             <div className="flex flex-wrap justify-center gap-4 md:gap-6">
               <a

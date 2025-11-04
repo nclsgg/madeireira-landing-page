@@ -26,15 +26,15 @@ export default function HeroSection() {
         <div className="max-w-7xl mx-auto w-full animate-fade-in">
           <div className="max-w-4xl flex flex-col items-start gap-5">
             <h1 className="font-playfair text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-extralight text-white  tracking-tighter leading-[0.95]">
-              Madeira que<br />
-              <span className="italic font-light">transcende</span>
+              Artesanato em<br />
+              <span className="italic font-light">madeira nobre</span>
             </h1>
             <div className="space-y-2">
               <p className="font-inter text-sm md:text-base lg:text-lg font-light text-white/90 max-w-md leading-relaxed tracking-wide">
-                Artesanato excepcional
+                Transformamos madeira em obras de arte
               </p>
               <p className="font-inter text-sm md:text-base lg:text-lg font-light text-white/90 max-w-md leading-relaxed tracking-wide">
-                Sustentabilidade atemporal
+                há mais de três décadas.
               </p>
             </div>
             <a

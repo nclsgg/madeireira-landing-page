@@ -35,23 +35,23 @@ export default function AboutSection() {
                 Nossa História
               </span>
               <h2 className="font-playfair text-3xl sm:text-4xl md:text-5xl font-light text-[#2C2C2C] leading-[1.15]">
-                Tradição e<br />
-                <span className="italic">excelência</span>
+                Três décadas de<br />
+                <span className="italic">maestria</span>
               </h2>
             </div>
 
             <div className="space-y-5 md:space-y-6 font-inter text-base md:text-lg font-light text-[#2C2C2C]/80 leading-relaxed">
               <p>
-                Cada peça de madeira é selecionada com cuidado meticuloso, 
-                honrando a natureza e o artesanato que nos define.
+                Desde 1991, especializados em carpintaria de alto padrão,
+                unindo técnicas tradicionais e tecnologia moderna.
               </p>
               <p>
-                Sustentabilidade não é uma escolha, mas um compromisso 
-                intrínseco ao nosso trabalho.
+                Trabalhamos exclusivamente com madeiras certificadas,
+                respeitando o meio ambiente e garantindo procedência.
               </p>
               <p>
-                Do corte à entrega, garantimos qualidade excepcional 
-                em cada etapa.
+                Da seleção da matéria-prima ao acabamento final,
+                cada projeto recebe atenção artesanal e expertise profissional.
               </p>
             </div>
 
