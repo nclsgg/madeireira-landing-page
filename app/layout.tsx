@@ -17,18 +17,18 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Madeireira Premium | Madeira de Qualidade Excepcional",
-  description: "Madeira nobre de primeira linha. Sustentabilidade, artesanato e design atemporal. Descubra a excelência em cada peça.",
-  keywords: ["madeireira", "madeira premium", "madeira nobre", "madeira de qualidade", "sustentabilidade", "artesanato"],
+  title: "PAUS Carpintaria | Excelência em carpintaria e mobiliário desde 1991.",
+  description: "Madeira nobre de primeira linha. Sustentabilidade, artesanato e design atemporal.",
+  keywords: ["carpintaria", "paus carpintaria", "madeira nobre", "mobiliário", "sustentabilidade", "artesanato"],
   openGraph: {
-    title: "Madeireira Premium | Madeira de Qualidade Excepcional",
+    title: "PAUS Carpintaria | Excelência em carpintaria e mobiliário desde 1991.",
     description: "Madeira nobre de primeira linha. Sustentabilidade, artesanato e design atemporal.",
     type: "website",
-    locale: "pt_BR",
+    locale: "pt_PT",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Madeireira Premium | Madeira de Qualidade Excepcional",
+    title: "PAUS Carpintaria | Excelência em carpintaria e mobiliário desde 1991.",
     description: "Madeira nobre de primeira linha. Sustentabilidade, artesanato e design atemporal.",
   },
 };
@@ -39,7 +39,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR" className="scroll-smooth">
+    <html lang="pt-PT" className="scroll-smooth">
       <body
         className={`${playfair.variable} ${inter.variable} antialiased`}
       >
