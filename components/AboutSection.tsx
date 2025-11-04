@@ -32,11 +32,11 @@ export default function AboutSection() {
           <div className="order-1 lg:order-2 animate-on-scroll space-y-6 md:space-y-8 max-w-xl mx-auto lg:mx-0 lg:max-w-none text-center lg:text-left px-4 lg:px-0">
             <div className="space-y-4 md:space-y-6">
               <span className="font-inter text-xs font-light text-[#8B6F47] tracking-widest uppercase block">
-                Nossa História
+                A Nossa História
               </span>
               <h2 className="font-playfair text-3xl sm:text-4xl md:text-5xl font-light text-[#2C2C2C] leading-[1.15]">
                 Três décadas de<br />
-                <span className="italic">maestria</span>
+                <span className="italic">mestria</span>
               </h2>
             </div>
 
@@ -47,11 +47,11 @@ export default function AboutSection() {
               </p>
               <p>
                 Trabalhamos exclusivamente com madeiras certificadas,
-                respeitando o meio ambiente e garantindo procedência.
+                respeitando o ambiente e garantindo a procedência.
               </p>
               <p>
-                Da seleção da matéria-prima ao acabamento final,
-                cada projeto recebe atenção artesanal e expertise profissional.
+                Desde a selecção da matéria-prima até ao acabamento final,
+                cada projecto recebe atenção artesanal e perícia profissional.
               </p>
             </div>
 

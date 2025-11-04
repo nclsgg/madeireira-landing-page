@@ -41,7 +41,7 @@ export default function HeroSection() {
               href="#produtos"
               className="inline-flex items-center font-inter text-sm md:text-base font-normal text-white border border-white/40 px-12 md:px-16 py-4 md:py-5 hover:bg-white hover:text-[#2C2C2C] hover:border-white transition-all duration-500 uppercase tracking-[0.2em] backdrop-blur-sm"
             >
-              Explorar Coleção
+              Explorar Colecção
             </a>
           </div>
         </div>

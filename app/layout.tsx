@@ -18,18 +18,18 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "PAUS Carpintaria | Excelência em carpintaria e mobiliário desde 1991.",
-  description: "Madeira nobre de primeira linha. Sustentabilidade, artesanato e design atemporal.",
+  description: "Madeira nobre de primeira linha. Sustentabilidade, artesanato e design intemporal.",
   keywords: ["carpintaria", "paus carpintaria", "madeira nobre", "mobiliário", "sustentabilidade", "artesanato"],
   openGraph: {
     title: "PAUS Carpintaria | Excelência em carpintaria e mobiliário desde 1991.",
-    description: "Madeira nobre de primeira linha. Sustentabilidade, artesanato e design atemporal.",
+    description: "Madeira nobre de primeira linha. Sustentabilidade, artesanato e design intemporal.",
     type: "website",
     locale: "pt_PT",
   },
   twitter: {
     card: "summary_large_image",
     title: "PAUS Carpintaria | Excelência em carpintaria e mobiliário desde 1991.",
-    description: "Madeira nobre de primeira linha. Sustentabilidade, artesanato e design atemporal.",
+    description: "Madeira nobre de primeira linha. Sustentabilidade, artesanato e design intemporal.",
   },
 };
 

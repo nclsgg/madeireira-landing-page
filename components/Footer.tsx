@@ -43,7 +43,7 @@ export default function Footer() {
                   href="#contato"
                   className="font-inter text-sm font-light text-[#2C2C2C]/70 hover:text-[#8B6F47] transition-colors duration-300"
                 >
-                  Contato
+                  Contacto
                 </a>
               </li>
             </ul>

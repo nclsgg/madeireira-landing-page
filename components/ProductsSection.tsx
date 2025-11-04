@@ -6,14 +6,14 @@ import Image from "next/image";
 
 const products = [
   {
-    title: "Madeiras Selecionadas",
-    description: "Tábuas e pranchas de madeiras nobres brasileiras e importadas",
+    title: "Madeiras Seleccionadas",
+    description: "Tábuas e pranchas de madeiras nobres nacionais e importadas",
     category: "Essencial",
     image: PremiumPlanks
   },
   {
     title: "Painéis Decorativos",
-    description: "Painéis ripados e revestimentos artesanais sob medida",
+    description: "Painéis ripados e revestimentos artesanais à medida",
     category: "Exclusivo",
     image: PaineisRipados
   },
@@ -25,7 +25,7 @@ const products = [
   },
   {
     title: "Acabamentos Finos",
-    description: "Molduras, rodapés e detalhes que valorizam seu projeto",
+    description: "Molduras, rodapés e detalhes que valorizam o seu projecto",
     category: "Premium",
     image: Acabamentos
   }
@@ -38,7 +38,7 @@ export default function ProductsSection() {
         {/* Section Header */}
         <div className="text-center mb-12 md:mb-16 lg:mb-20 animate-on-scroll max-w-3xl mx-auto px-4">
           <h2 className="font-playfair text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light text-[#2C2C2C] mb-4 md:mb-6 tracking-tight leading-[1.15]">
-            Nossos Produtos
+            Os Nossos Produtos
           </h2>
           <p className="font-inter text-base md:text-lg font-light text-[#2C2C2C]/70 max-w-xl mx-auto">
             Soluções completas em carpintaria para residências e empresas

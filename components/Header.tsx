@@ -41,7 +41,7 @@ export default function Header() {
             href="#contato"
             className={`font-inter text-sm font-light border ${scrolled ? 'text-[#2C2C2C] border-[#2C2C2C] hover:bg-[#2C2C2C] hover:text-white' : 'text-white border-white hover:bg-white hover:text-[#8B6F47]'} px-8 py-2 transition-all duration-300`}
           >
-            Contato
+            Contacto
           </a>
         </div>
       </nav>
